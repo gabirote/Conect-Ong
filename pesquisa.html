@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    
+    <head><!-- Config -->
+        <meta charse="UTF-8"> <!--Essa tag serve para o site reconhecer caracteres especiais-->
+        <title> Conect Ongs </title> <!--tag usada para por nome na pagina-->
+        <link rel="stylesheet" href="C:\Users\hdmga\OneDrive\Área de Trabalho\Conect Ong\css"> <!--tag usadada
+        para linkar o css-->
+        <link rel="stylesheet" href="style.css">
+        <script src="./js/script.js"></script>
+    </head>
+    
+    <body><!--Corpo-->
+        
+        <div class="container">
+        
+            <header class="cabecalho"> <!--Cabeçalho-->           
+            <figure class=" cabecalho__logo">
+                <img src="./logo_ong.png" alt="Logo do Conect Ongs">
+                <!--tag usada para colocar imagem, apos a tag colocar caminho da imagem no pc-->
+                <figcaption hidden>Logo Conect Ongs</figcaption> <!-- tag para descrever imagem a cima-->
+            </figure>
+
+            <nav class="cabecalho__menuNavegacao"><!--tag para cirar menu de navegação-->
+                                
+                <ul class="cabecalho__menuLista"><!--tag para criar uma lista onde não numerada-->
+                    <li class="cabecalho__menuItem"><!--tag para por os itens da lista-->
+
+                        <img src="./iconfeed.png" alt="Simbolo de Feed" width="10%"  >
+                        <a href="notificacao.html" >Feed de Noticias</a> 
+                    </li>
+                    <li class="cabecalho__menuItem">   
+                        <img src="./lupa.png" alt="Simbolo de lupa" width="10%">
+                         <a href="./pesquisa.html">Pesquisar Ongs</a> 
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./iconemaps.png" alt="Simbolo Maps" width="10%">
+                        <a href="maps.html">Maps Ongs</a>
+                    </li>
+                    <!-- <li class="cabecalho__menuItem">
+                        <img src="./img/Group (1).png" alt="Simbolo de salvo">
+                         <a href=" ">Ongs Salvas</a> 
+                    </li> -->
+                </ul>
+            </nav>
+            </header>
+            <main class="conteudoPrincipal"><!--tag para dizer que o conteudo a seguir é o principal, só pode ter uma tag main-->
+                <h3 class="conteudoPrincipal__titulo">Pesquisar Ongs</h3>
+                <input id="searchbar" type="text" name="searchbar" placeholder="Pesquise! Ex:Ong Ambiental" onkeyup="search()">
+                  
+                <!--<form action="#">tag para criar um formulario, será utilizado para postar coisas na pagina
+                o atributo action serve para enviar o que foi colocado no formulario para algum lugar-->
+                   <!--<textarea name="Post" id=" Post" ></textarea>
+                </form>-->
+    
+                <!--FEED DE NOTICIAS-->
+                <section class="conteudoPrincipal__feed">
+                    
+                    <ul class="conteudoPrincipal__listatweet">
+                        <li class="conteudoPrincipal__tweet">
+                            <img class="ong__fotoperfil" src="PAS.png" alt = "LOGO PAS">
+                            
+                            <div class="tweet__conteudo">
+                                
+                                <h2>Protegendo Animais Silvestres</h2>
+                                <span>@PASOFC</span>
+                                <h4 class="tipo">ONG Animal</h4>
+                                <p>
+                                    A Ong PAS (Protegendo Animais Silvestres), tem como objetivo combater os crimes contra 
+                                    animais silvestres como o trafico deles, que tal dar uma forcinha para esses parceiros da natureza ?
+                                </p>
+                            </div>
+    
+                        </li>
+                        <li class="conteudoPrincipal__tweet">
+                            <img class="ong__fotoperfil" src="JP.png" alt = "LOGO JP">
+                            
+                            <div class="tweet__conteudo">
+                                <h2>Jovem Parceiro</h2>
+                                <span>@JovemParceiroofc</span>
+                                <h4 class="tipo">ONG Apoio</h4>
+                                <p>
+                                    Jovens Parceiros, ajudando idosos os fazendo se sentir menos sozinhos os levando para atividades
+                                    divertidas e passeios, demonstre seu apoio a velha guarda e colabore com esses jovens parceiros!
+                                </p>
+    
+                            </div>
+                        </li>
+                        <li class="conteudoPrincipal__tweet">
+                            
+                            <img  class="ong__fotoperfil" src="PBS.png" alt = "LOGO PBS">
+                           
+                            <div class="tweet__conteudo">
+                                <a href="ambiental.html"> <h2>Plantando Bons Sonhos</h2></a>
+                                <span>@PBSOFC</span>
+                                <h4 class="tipo">ONG Ambiental</h4>
+                                <p>
+                                    A Plantando Bons Sonhos tem como objetivo educar e incetivar o cuidado do meio ambiente por meio da crianças,
+                                    sempre mostrando a elas a importancia da saude do nosso grande planeta azul, o que acha de dar uma olhada 
+                                    nas atividades dessa galera mais de perto e quem sabe até plantar uma mudinha.
+                                </p>
+    
+                            </div>
+                        </li>
+                        <li class="conteudoPrincipal__tweet">
+                            <img class="ong__fotoperfil" src="CDN.png" alt = "LOGO CND">
+                            
+                            <div class="tweet__conteudo">
+                                <h2>Cuidando De Nos</h2>
+                                <span>@CNDOFC</span>
+                                <h4 class="tipo">ONG Apoio</h4>
+                                <p>
+                                    Mulheres unidas com um unico objetivo, uma acolher a outra, a Ong CND (Cuidando De Nos)
+                                    tem como objetivo acolher todas as mulheres vitimas de abusos fisicos e psicologicos, fornecendo 
+                                    atendimento psicologico com profissional formados e preparados para todo tipo de caso, também auxiliando
+                                    em denuncias quando necessario, o machismo e a violencia contra a mulher precisa de um fim! Todos precisam
+                                    entrar nesta luta!
+                                </p>
+    
+                            </div>
+                        </li>
+    
+                    </ul>
+    
+                   
+                </section>
+            
+                </main>
+            
+            </div>
+        
+        </body>
+    </html>

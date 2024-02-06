@@ -1,0 +1,120 @@
+
+body{}
+
+.container{
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+   
+    /* margin-top: 50px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ; */
+
+   
+}
+
+
+.cabecalho{
+    flex-basis: 30%;
+}
+.cabecalho__logo figcaption{
+    display: none;
+}
+.cabecalho__logo img{
+     margin-bottom: 50px;
+    
+}
+
+
+.cabecalho_menuNavegacao{}
+
+.cabecalho__menuLista{}
+.cabecalho__menuItem{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 25px;
+    vertical-align: top;
+    display: flex;
+}
+
+.cabecalho__menuItem{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+.cabecalho__menuItem{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+.cabecalho__menuItem{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+
+.conteudoPrincipal{
+    flex-basis: 70%;
+    
+}
+.conteudoPrincipal__titulo{}
+
+.conteudoPrincipal__feed{}
+.conteudoPrincipal__listatweet{}
+.conteudoPrincipal__tweet{
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    border: 2px inset #e7e7e7
+}
+
+.tweet__fotoperfil{}
+.tweet__conteudo{
+    margin-left: 10px;
+    
+}
+.tweet__conteudo h2{
+    display: inline-block;
+}
+
+
+.tweet__conteudo img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px;
+    
+    margin-bottom: 20px;
+    
+}
+
+.ong__fotoperfil{
+    width: 40%;
+   
+    margin-bottom: 20px;
+}
+
+#searchbar{
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+    padding: 5px;
+    border-color: steelblue;
+    
+}
+
+.mapis{
+   
+    width: 100%;
+}
+   
+
+
+
